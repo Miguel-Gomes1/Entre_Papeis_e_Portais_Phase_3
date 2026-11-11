@@ -1,0 +1,1092 @@
+{
+  "portal_incompleto": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Evitar o conflito e seguir para 1825.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Prosseguir para o Parlamento.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Pular para as notícias da guerra.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Evitar os relatos e acelerar o tempo.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Apressar o calendário para 1831.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Seguir imediatamente para abril.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Forçar a abertura sem registros suficientes.",
+      "to": "@portal_incompleto"
+    }
+  ],
+  "entre_dois_tempos": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Evitar o conflito e seguir para 1825.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Prosseguir para o Parlamento.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Pular para as notícias da guerra.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Evitar os relatos e acelerar o tempo.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Apressar o calendário para 1831.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Seguir imediatamente para abril.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Escolher permanecer mais um tempo no passado.",
+      "to": "@entre_dois_tempos"
+    }
+  ],
+  "memorias_silenciadas": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Evitar o conflito e seguir para 1825.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Prosseguir para o Parlamento.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Guardar um resumo institucional.",
+      "to": "instituicoes_1826"
+    },
+    {
+      "node": "instituicoes_1826",
+      "label": "Seguir para o conflito na região do Prata.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Ouvir famílias afetadas pela guerra.",
+      "to": "familias_1828"
+    },
+    {
+      "node": "familias_1828",
+      "label": "Guardar o testemunho.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Observar os gabinetes políticos.",
+      "to": "gabinete_1830"
+    },
+    {
+      "node": "gabinete_1830",
+      "label": "Continuar observando.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Prestar atenção nas pessoas ameaçadas.",
+      "to": "cuidado_1831"
+    },
+    {
+      "node": "cuidado_1831",
+      "label": "Prosseguir para 7 de abril.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Priorizar o relato das pessoas pouco ouvidas.",
+      "to": "@memorias_silenciadas"
+    }
+  ],
+  "travessia_prata": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Evitar o conflito e seguir para 1825.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Prosseguir para o Parlamento.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Guardar um resumo institucional.",
+      "to": "instituicoes_1826"
+    },
+    {
+      "node": "instituicoes_1826",
+      "label": "Seguir para o conflito na região do Prata.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Ouvir famílias afetadas pela guerra.",
+      "to": "familias_1828"
+    },
+    {
+      "node": "familias_1828",
+      "label": "Guardar o testemunho.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Observar os gabinetes políticos.",
+      "to": "gabinete_1830"
+    },
+    {
+      "node": "gabinete_1830",
+      "label": "Continuar observando.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Prestar atenção nas pessoas ameaçadas.",
+      "to": "cuidado_1831"
+    },
+    {
+      "node": "cuidado_1831",
+      "label": "Prosseguir para 7 de abril.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Guardar o testemunho da Guerra da Cisplatina.",
+      "to": "@travessia_prata"
+    }
+  ],
+  "cartas_corte": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Evitar o conflito e seguir para 1825.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Prosseguir para o Parlamento.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Guardar um resumo institucional.",
+      "to": "instituicoes_1826"
+    },
+    {
+      "node": "instituicoes_1826",
+      "label": "Seguir para o conflito na região do Prata.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Ouvir famílias afetadas pela guerra.",
+      "to": "familias_1828"
+    },
+    {
+      "node": "familias_1828",
+      "label": "Guardar o testemunho.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Observar os gabinetes políticos.",
+      "to": "gabinete_1830"
+    },
+    {
+      "node": "gabinete_1830",
+      "label": "Continuar observando.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Prestar atenção nas pessoas ameaçadas.",
+      "to": "cuidado_1831"
+    },
+    {
+      "node": "cuidado_1831",
+      "label": "Prosseguir para 7 de abril.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Levar um registro sobre as instituições do Império.",
+      "to": "@cartas_corte"
+    }
+  ],
+  "retorno_apressado": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Evitar o conflito e seguir para 1825.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Prosseguir para o Parlamento.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Guardar um resumo institucional.",
+      "to": "instituicoes_1826"
+    },
+    {
+      "node": "instituicoes_1826",
+      "label": "Seguir para o conflito na região do Prata.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Ouvir famílias afetadas pela guerra.",
+      "to": "familias_1828"
+    },
+    {
+      "node": "familias_1828",
+      "label": "Guardar o testemunho.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Observar os gabinetes políticos.",
+      "to": "gabinete_1830"
+    },
+    {
+      "node": "gabinete_1830",
+      "label": "Continuar observando.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Prestar atenção nas pessoas ameaçadas.",
+      "to": "cuidado_1831"
+    },
+    {
+      "node": "cuidado_1831",
+      "label": "Prosseguir para 7 de abril.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Regressar agora, mesmo deixando perguntas.",
+      "to": "@retorno_apressado"
+    }
+  ],
+  "vozes_tipografia": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Evitar o conflito e seguir para 1825.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Prosseguir para o Parlamento.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Guardar um resumo institucional.",
+      "to": "instituicoes_1826"
+    },
+    {
+      "node": "instituicoes_1826",
+      "label": "Seguir para o conflito na região do Prata.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Ouvir famílias afetadas pela guerra.",
+      "to": "familias_1828"
+    },
+    {
+      "node": "familias_1828",
+      "label": "Guardar o testemunho.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Ler as críticas publicadas em jornais.",
+      "to": "jornais_1830"
+    },
+    {
+      "node": "jornais_1830",
+      "label": "Continuar observando.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Prestar atenção nas pessoas ameaçadas.",
+      "to": "cuidado_1831"
+    },
+    {
+      "node": "cuidado_1831",
+      "label": "Prosseguir para 7 de abril.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Preservar as notícias e os debates impressos.",
+      "to": "@vozes_tipografia"
+    }
+  ],
+  "retorno_consciente": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Evitar o conflito e seguir para 1825.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Prosseguir para o Parlamento.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Guardar um resumo institucional.",
+      "to": "instituicoes_1826"
+    },
+    {
+      "node": "instituicoes_1826",
+      "label": "Seguir para o conflito na região do Prata.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Ouvir famílias afetadas pela guerra.",
+      "to": "familias_1828"
+    },
+    {
+      "node": "familias_1828",
+      "label": "Guardar o testemunho.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Ler as críticas publicadas em jornais.",
+      "to": "jornais_1830"
+    },
+    {
+      "node": "jornais_1830",
+      "label": "Continuar observando.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Anotar os relatos divergentes.",
+      "to": "relatos_1831"
+    },
+    {
+      "node": "relatos_1831",
+      "label": "Prosseguir para 7 de abril.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Construir um relato que compare diferentes perspectivas.",
+      "to": "@retorno_consciente"
+    }
+  ],
+  "cronista_provincias": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Registrar os diferentes interesses provinciais.",
+      "to": "prov_1824"
+    },
+    {
+      "node": "prov_1824",
+      "label": "Guardar a comparação e seguir.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Prosseguir para o Parlamento.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Pular para as notícias da guerra.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Ouvir famílias afetadas pela guerra.",
+      "to": "familias_1828"
+    },
+    {
+      "node": "familias_1828",
+      "label": "Guardar o testemunho.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Observar os gabinetes políticos.",
+      "to": "gabinete_1830"
+    },
+    {
+      "node": "gabinete_1830",
+      "label": "Continuar observando.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Prestar atenção nas pessoas ameaçadas.",
+      "to": "cuidado_1831"
+    },
+    {
+      "node": "cuidado_1831",
+      "label": "Prosseguir para 7 de abril.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Voltar com as vozes das províncias.",
+      "to": "@cronista_provincias"
+    }
+  ],
+  "arquivo_tempo": [
+    {
+      "node": "p1",
+      "label": "Estou ouvindo.",
+      "to": "p2"
+    },
+    {
+      "node": "p2",
+      "label": "Como eu volto para casa?",
+      "to": "p3"
+    },
+    {
+      "node": "p3",
+      "label": "Papéis? Portais? Continue.",
+      "to": "p4"
+    },
+    {
+      "node": "p4",
+      "label": "Tudo bem. E depois?",
+      "to": "p5"
+    },
+    {
+      "node": "p5",
+      "label": "Então vamos começar!",
+      "to": "porto_escolha"
+    },
+    {
+      "node": "porto_escolha",
+      "label": "Não perder tempo: seguir adiante.",
+      "to": "passagem_1823"
+    },
+    {
+      "node": "passagem_1823",
+      "label": "Passar diretamente a 1824.",
+      "to": "choque_1823"
+    },
+    {
+      "node": "choque_1823",
+      "label": "Ir em frente sem anotar.",
+      "to": "carta_1824"
+    },
+    {
+      "node": "carta_1824",
+      "label": "Seguir sem parar para estudar.",
+      "to": "confed_1824"
+    },
+    {
+      "node": "confed_1824",
+      "label": "Ler uma folha da tipografia.",
+      "to": "tipografia_1824"
+    },
+    {
+      "node": "tipografia_1824",
+      "label": "Guardar o fragmento estranho.",
+      "to": "reconhecimento_1825"
+    },
+    {
+      "node": "reconhecimento_1825",
+      "label": "Acompanhar como o jornal relata o acordo.",
+      "to": "gazeta_1825"
+    },
+    {
+      "node": "gazeta_1825",
+      "label": "Avançar para 1826.",
+      "to": "parlamento_1826"
+    },
+    {
+      "node": "parlamento_1826",
+      "label": "Guardar um resumo institucional.",
+      "to": "instituicoes_1826"
+    },
+    {
+      "node": "instituicoes_1826",
+      "label": "Seguir para o conflito na região do Prata.",
+      "to": "guerra_1827"
+    },
+    {
+      "node": "guerra_1827",
+      "label": "Acompanhar as negociações de paz.",
+      "to": "paz_1828"
+    },
+    {
+      "node": "paz_1828",
+      "label": "Comparar a marca com o fragmento guardado.",
+      "to": "fim_guerra_1828"
+    },
+    {
+      "node": "fim_guerra_1828",
+      "label": "Acompanhar os últimos anos do reinado.",
+      "to": "crise_1830"
+    },
+    {
+      "node": "crise_1830",
+      "label": "Observar os gabinetes políticos.",
+      "to": "gabinete_1830"
+    },
+    {
+      "node": "gabinete_1830",
+      "label": "Continuar observando.",
+      "to": "garrafadas_1831"
+    },
+    {
+      "node": "garrafadas_1831",
+      "label": "Conferir as marcas nos papéis do portal.",
+      "to": "marcas_1831"
+    },
+    {
+      "node": "marcas_1831",
+      "label": "Guardar a chave e prosseguir.",
+      "to": "abdicacao_1831"
+    },
+    {
+      "node": "abdicacao_1831",
+      "label": "Ir ao portal com meus documentos.",
+      "to": "portal_final"
+    },
+    {
+      "node": "portal_final",
+      "label": "Usar a chave secreta das margens do tempo.",
+      "to": "@arquivo_tempo"
+    }
+  ]
+}

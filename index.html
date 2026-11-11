@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#101b25">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <meta name="description" content="Entre Papéis & Portais — RPG narrativo pixel art sobre o Primeiro Reinado, de 1822 a 1831, com 10 finais colecionáveis e cutscenes.">
+  <title>Entre Papéis & Portais | Primeiro Reinado</title>
+  <script type="module" src="/src/main.ts"></script>
+</head>
+<body>
+  <div class="site-wrap">
+    <header class="site-head">
+      <div class="brand"><span class="brand-glyph" aria-hidden="true">✣</span><span><strong>ENTRE PAPÉIS <i>&</i> PORTAIS</strong><small>UM RPG NARRATIVO DO PRIMEIRO REINADO</small></span></div>
+      <nav class="nav-actions" aria-label="Ações principais">
+        <button type="button" id="navHome" title="Menu principal" aria-label="Menu principal"><span aria-hidden="true">⌂</span><span class="nav-text">INÍCIO</span></button>
+        <button type="button" id="navCards" title="Cartas dos finais" aria-label="Ver cartas dos finais"><span aria-hidden="true">◇</span><span class="nav-text">FINAIS</span><span id="headerProgress" class="small-count">0/10</span></button>
+        <button type="button" id="navDiary" title="Arquivo histórico" aria-label="Abrir arquivo histórico"><span aria-hidden="true">▤</span><span class="nav-text">ARQUIVO</span></button>
+        <button type="button" id="navMenu" title="Configurações e ajuda" aria-label="Abrir opções"><span aria-hidden="true">☷</span></button>
+      </nav>
+    </header>
+
+    <section id="homeScreen" class="home-screen">
+      <div class="hero-scene">
+        <img src="/assets/porto_1822.webp" class="pixel-scene" alt="Cenário pixel art de um porto brasileiro do século XIX ao entardecer">
+        <div class="hero-shade"></div><div class="hero-date">1822 — 1831 <span>•</span> BRASIL IMPÉRIO</div>
+        <div class="hero-copy"><span class="eyebrow">UM RPG DE ESCOLHAS HISTÓRICAS</span><h1>O PASSADO<br>NÃO TEM <em>UM</em><br>ÚNICO CAMINHO.</h1><p>Explore o Primeiro Reinado por diferentes perspectivas. Reúna papéis, desvende histórias e decida como sua viagem terminará.</p></div>
+      </div>
+      <div class="home-panel">
+        <div class="panel-mark">✧ &nbsp; PRIMEIRO REINADO &nbsp; ✧</div>
+        <h2>QUEM CONTA<br>A HISTÓRIA?</h2>
+        <p>Viaje entre o Recife, a Bahia, o Rio de Janeiro e a região do Prata. Suas escolhas descobrem caminhos — não reescrevem os fatos.</p>
+        <div class="home-buttons">
+          <button id="newGame" class="btn-primary">✦ &nbsp; NOVA JORNADA <span>↗</span></button>
+          <button id="continueGame" class="btn-secondary">▶ &nbsp; CONTINUAR AVENTURA</button>
+          <button id="homeGallery" class="btn-secondary">◇ &nbsp; CARTAS DOS FINAIS <small id="homeGalleryProgress">0 / 10</small></button>
+          <button id="homeSources" class="btn-subtle">▤ &nbsp; CONTEXTO E FONTES HISTÓRICAS</button>
+        </div>
+        <div class="home-facts"><div><b>10</b><span>FINAIS</span></div><div><b>8</b><span>MARCOS</span></div><div><b>2D</b><span>PIXEL ART</span></div></div>
+      </div>
+    </section>
+
+    <main id="gameScreen" hidden>
+      <div class="game-topline"><div><span id="chapterEyebrow">CAPÍTULO I</span><span class="timeline-track" aria-hidden="true"><i id="timelineFill"></i></span></div><div id="saveLabel" aria-live="polite">PROGRESSO LOCAL</div></div>
+      <div class="game-layout">
+        <section class="visual-column" aria-label="Cena da história">
+          <div class="scene-window">
+            <img id="sceneImage" class="pixel-scene" alt="Cenário em pixel art que muda conforme a jornada" src="/assets/porto_1822.webp">
+            <div class="scene-vignette"></div>
+            <div class="scene-top"><span class="scene-label" id="scenePlace">PORTO DO RECIFE</span><span class="scene-label scene-year" id="sceneYear">1822</span></div>
+            <div class="scene-bottom"><span id="sceneLocation">RECIFE — PERNAMBUCO</span><span>✣</span></div>
+          </div>
+          <div class="under-scene"><div><span class="under-icon">▤</span><span><strong id="docCount">0 / 12</strong><small>DOCUMENTOS ENCONTRADOS</small></span></div><button type="button" id="gameDiary" class="tiny-action">VER ARQUIVO &nbsp; ↗</button></div>
+          <div class="historical-note"><span>✧</span><p><strong>Ficção histórica.</strong> Personagens e cartas narrativas são criados para o jogo. Os acontecimentos do Brasil não são alterados por suas escolhas.</p></div>
+        </section>
+        <section class="story-column" aria-label="Narrativa e escolhas">
+          <div class="scene-heading"><div class="speaker-emblem">✒</div><div><span id="storyChapter" class="micro-label">PRÓLOGO</span><h2 id="speaker">NARRADOR</h2></div><button type="button" id="voiceButton" class="voice-btn" aria-label="Ativar leitura por voz" title="Ler diálogo em voz alta">◖))</button></div>
+          <p id="storyBody" aria-live="polite"></p>
+          <div class="decision-header"><span>ESCOLHA SEU PRÓXIMO PASSO</span><span>✣</span></div>
+          <div id="choices" class="choice-list" role="group" aria-label="Escolhas de diálogo"></div>
+          <div class="game-hint">PC: TECLAS 1–9 &nbsp;•&nbsp; CELULAR: TOQUE NAS OPÇÕES</div>
+        </section>
+      </div>
+      <div class="timeline-footer" id="timelineText" aria-label="Linha do tempo">1822 — 1831 &nbsp; | &nbsp; UMA VIAGEM PELO PRIMEIRO REINADO</div>
+    </main>
+    <footer class="bottom-footer"><span>✦ &nbsp; HISTÓRIA • MEMÓRIA • ESCOLHAS</span><span>JOGO ORIGINAL EM PORTUGUÊS · FUNCIONA OFFLINE</span></footer>
+  </div>
+  <div id="modal" class="modal-screen" hidden>
+    <div class="modal-frame" role="dialog" aria-modal="true" aria-labelledby="modalHeading">
+      <div class="modal-header"><div><span class="micro-label">CÓDICE DO VIAJANTE</span><h2 id="modalHeading">CARTAS DOS FINAIS</h2></div><button id="modalClose" type="button" aria-label="Fechar janela">✕</button></div>
+      <div id="modalContent" class="modal-content"></div>
+    </div>
+  </div>
+  <div id="cinema" class="cinema" hidden role="dialog" aria-modal="true" aria-label="Cutscene de final">
+    <div class="cinema-visual"><img id="cinemaImage" class="pixel-scene" alt="Cena da cutscene" src="/assets/portal_atualidade.webp"><div class="cinema-tint"></div></div>
+    <div class="cinema-letterbox top"></div><div class="cinema-letterbox bottom"></div>
+    <div class="cinema-ui"><div class="cinema-upper"><span>✦ &nbsp; EPÍLOGO</span><span id="cinemaPosition">CENA 1 / 3</span></div><div class="cinema-dialogue"><small id="cinemaSubtitle">A ÚLTIMA PÁGINA</small><h2 id="cinemaTitle">...</h2><p id="cinemaText">...</p><div class="cinema-controls"><button type="button" id="cinemaSkip" class="cinema-text-btn">PULAR CUTSCENE</button><button type="button" id="cinemaNext" class="btn-primary">CONTINUAR &nbsp; →</button></div></div></div>
+  </div>
+  <noscript>Ative o JavaScript para jogar Entre Papéis & Portais.</noscript>
+</body>
+</html>

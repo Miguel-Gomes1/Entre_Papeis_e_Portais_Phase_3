@@ -1,0 +1,21 @@
+{
+  "name": "entre-papeis-e-portais",
+  "version": "3.2.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 0.0.0.0",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview --host 0.0.0.0",
+    "test:routes": "node --experimental-strip-types tests/validate_routes.mjs",
+    "test:ui": "tsc --target ES2022 --module commonjs --moduleResolution node --lib ES2022,DOM --strict --outDir tests/_compiled src/story.ts src/engine/types.ts src/engine/narrative.ts src/engine/storage.ts src/ui/UIController.ts && python tests/test_ui_v3.py"
+  },
+  "dependencies": {
+    "phaser": "^4.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.3",
+    "vite": "^7.1.0"
+  }
+}

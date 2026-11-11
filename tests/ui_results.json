@@ -1,0 +1,107 @@
+[
+  {
+    "check": "Menu inicial",
+    "status": "PASS",
+    "detail": "menu e botões de entrada"
+  },
+  {
+    "check": "Controles do jogo",
+    "status": "PASS",
+    "detail": "novo jogo, teclado, diário, escape"
+  },
+  {
+    "check": "Salvamento e retomada",
+    "status": "PASS",
+    "detail": "progresso recuperado em nova sessão"
+  },
+  {
+    "check": "Final portal_incompleto",
+    "status": "PASS",
+    "detail": "18"
+  },
+  {
+    "check": "Final entre_dois_tempos",
+    "status": "PASS",
+    "detail": "18"
+  },
+  {
+    "check": "Final memorias_silenciadas",
+    "status": "PASS",
+    "detail": "22"
+  },
+  {
+    "check": "Final travessia_prata",
+    "status": "PASS",
+    "detail": "22"
+  },
+  {
+    "check": "Final cartas_corte",
+    "status": "PASS",
+    "detail": "22"
+  },
+  {
+    "check": "Final retorno_apressado",
+    "status": "PASS",
+    "detail": "22"
+  },
+  {
+    "check": "Final vozes_tipografia",
+    "status": "PASS",
+    "detail": "22"
+  },
+  {
+    "check": "Final retorno_consciente",
+    "status": "PASS",
+    "detail": "22"
+  },
+  {
+    "check": "Final cronista_provincias",
+    "status": "PASS",
+    "detail": "22"
+  },
+  {
+    "check": "Final arquivo_tempo",
+    "status": "PASS",
+    "detail": "24"
+  },
+  {
+    "check": "Mobile/tablet (390, 844)",
+    "status": "PASS",
+    "detail": "390x844, sem overflow horizontal"
+  },
+  {
+    "check": "Mobile/tablet (320, 700)",
+    "status": "PASS",
+    "detail": "320x700, sem overflow horizontal"
+  },
+  {
+    "check": "Mobile/tablet (844, 390)",
+    "status": "PASS",
+    "detail": "844x390, sem overflow horizontal"
+  },
+  {
+    "check": "Mobile/tablet (768, 1024)",
+    "status": "PASS",
+    "detail": "768x1024, sem overflow horizontal"
+  },
+  {
+    "check": "Migração save v2",
+    "status": "PASS",
+    "detail": "save v2 preservado"
+  },
+  {
+    "check": "Exportar arquivo de salvamento",
+    "status": "PASS",
+    "detail": "entre-papeis-e-portais-salvamento.json"
+  },
+  {
+    "check": "Importar arquivo de salvamento",
+    "status": "PASS",
+    "detail": "save JSON externo importado, carta preservada"
+  },
+  {
+    "check": "Sem erros JS",
+    "status": "PASS",
+    "detail": "nenhum pageerror"
+  }
+]
