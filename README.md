@@ -30,15 +30,6 @@ npm run preview
 
 A pasta **`dist/`** é o site pronto para upload. **Não envie apenas o `index.html` da raiz** ao serviço de hospedagem, pois ele depende de um build do Vite.
 
-## Deploy grátis: Cloudflare Pages
-
-1. Crie um repositório com o conteúdo **desta pasta** no GitHub.
-2. No painel Cloudflare, vá a Workers & Pages → Create → Pages → conectar Git.
-3. Escolha o repositório e configure **Build command:** `npm run build` e **Build output directory:** `dist`.
-4. Publique no subdomínio gratuito `*.pages.dev`, dentro dos limites do plano Free.
-
-Não é preciso domínio personalizado, servidor Node ou banco de dados para hospedar esta versão. O Vite é usado no **build**, não como servidor de produção.
-
 ## O que foi preservado da versão anterior
 
 - 45 cenas narrativas, 12 documentos e a linha do tempo completa de 1822–1831.
