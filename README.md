@@ -10,25 +10,11 @@ RPG narrativo em pixel art sobre o Primeiro Reinado (1822–1831). Projeto gratu
 - **HTML + CSS** para diálogos acessíveis, menus, diário, cartas e configuração.
 - **LocalStorage** para saves automáticos. Exportação/importação de backup JSON disponível no menu do jogo.
 
-## Como executar
+## Deploy
 
-Você precisa do Node.js 22.12+ (ou 20.19+). No terminal, na pasta do projeto:
-
-```bash
-npm install
-npm run dev
-```
-
-Abra o endereço exibido pelo Vite (normalmente `http://localhost:5173`).
+Abra o endereço: `https://entre-papeis-e-portais.anchorv.workers.dev/`
 
 Para produzir o site estático:
-
-```bash
-npm run build
-npm run preview
-```
-
-A pasta **`dist/`** é o site pronto para upload. **Não envie apenas o `index.html` da raiz** ao serviço de hospedagem, pois ele depende de um build do Vite.
 
 ## O que foi preservado da versão anterior
 
